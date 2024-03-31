@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is my CSS Frameworks CA, a piece of student work.">
+    <link rel="shortcut icon" href="../src/assets/icons/face-thinking-regular.svg" type="image/x-icon">
+    <title>Profile | FACEHUB</title>
+    <link rel="stylesheet" href="../dist/css/index.css">
+    <script type="module" src="../src/js/index.js"></script>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="container-fluid pt-5">
+      <figure class="logo text-uppercase font-oswald text-center">
+        <h1 class="fw-bold">Facehub</h1>
+        <h2 class="fw-bold">The hangout</h2>
+      </figure>
+    </header>
+    <main class="px-3 flex-grow-1 p-3">
+      <div class="row gap-md-3 p-3">
+        <button class="btn-browse element-bg text-uppercase font-oswald my-3 text-white rounded fw-bold position-relative shadow d-none d-xl-block col-xl"><img src="/src/assets/icons/user-solid.svg" alt="profile" class="img-fluid icon position-absolute start-10">View Profile</button>
+        <button class="btn-browse element-bg text-uppercase font-oswald my-3 text-white rounded fw-bold position-relative shadow col-md"><img src="/src/assets/icons/rss-solid.svg" alt="feed" class="img-fluid icon position-absolute start-10">Browse feed</button>
+        <button class="btn-browse element-bg text-uppercase font-oswald my-3 text-white rounded fw-bold position-relative shadow  col-md"><img src="/src/assets/icons/person-to-door-solid.svg" alt="logout" class="img-fluid icon position-absolute start-10">Log out</button>
+      </div>
+      <div class="container-fluid element-bg rounded pb-5">
+        <div class="row pt-3 pb-5 px-1 gap-2">
+          <img src="https://i.pravatar.cc/300" class="img-fluid rounded" alt="mystic voice">
+          <section class="row gap-3">
+            <h2 class="font-oswald fw-bold">@mystic-voice</h2>
+            <p>"I'm torn between two worlds atm!"</p>
+            <span class="follower-stats font-oswald fw-bold">
+              <p># 601 Followers</p>
+              <p># Follows 69</p>
+            </span>
+            <div class="row justify-content-center">
+              <button class="btn btn-info w-50 font-oswald text-uppercase fw-bold">Follow me</button>
+            </div>
+          </section>
+        </div>
+        <div class="accordion" id="accordionPanelStayOpen">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button font-oswald text-uppercase fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PanelStayOpen-collapseOne" aria-expanded="true" aria-controls="PanelStayOpen-collapseOne">
+                Latest posts
+              </button>
+            </h2>
+            <div id="PanelStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body d-flex flex-column gap-3">
+                <div class="row bg-white text-black rounded">
+                  <p>@mystic-voice</p>
+                  <p>Im gonna be louder starting from today!</p>
+                  <div class="row">
+                    <span class="col">2024-03-27</span>
+                    <button class="btn text-black col d-flex justify-content-end align-items-center gap-1">14 <img src="../src/assets/icons/thumbs-up-duotone.svg" class="icon-duo" alt="like"></button>
+                  </div>
+                </div>
+                <div class="row bg-white text-black rounded">
+                  <p>@mystic-voice</p>
+                  <p>Attended a concert! It was loud and awesome!</p>
+                  <div class="row">
+                    <span class="col">2024-03-24</span>
+                    <button class="btn text-black col d-flex justify-content-end align-items-center gap-1">77 <img src="../src/assets/icons/thumbs-up-duotone.svg" class="icon-duo" alt="like"></button>
+                  </div>
+                </div>
+                <div class="row bg-white text-black rounded">
+                  <p>@mystic-voice</p>
+                  <p>Just joined a singing class at the local community center, perhaps I will learn something cool!</p>
+                  <div class="row">
+                    <span class="col">2024-03-20</span>
+                    <button class="btn text-black col d-flex justify-content-end align-items-center gap-1">102 <img src="../src/assets/icons/thumbs-up-duotone.svg" class="icon-duo" alt="like"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed font-oswald text-uppercase fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PanelStayOpen-collapseTwo" aria-expanded="false" aria-controls="PanelStayOpen-collapseTwo">
+                View my followers
+              </button>
+            </h2>
+            <div id="PanelStayOpen-collapseTwo" class="accordion-collapse collapse show">
+              <div class="accordion-body d-flex flex-column gap-3">
+                <div class="row bg-white text-black rounded">
+                </div>
+                <div class="row bg-white text-black rounded">
+                </div>
+                <div class="row bg-white text-black rounded">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed font-oswald text-uppercase fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#PanelStayOpen-collapseThree" aria-expanded="false" aria-controls="PanelStayOpen-collapseThree">
+                View my follows
+              </button>
+            </h2>
+            <div id="PanelStayOpen-collapseThree" class="accordion-collapse collapse show">
+              <div class="accordion-body d-flex flex-column gap-3">
+                <div class="row bg-white text-black rounded">
+                </div>
+                <div class="row bg-white text-black rounded">
+                </div>
+                <div class="row bg-white text-black rounded">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="element-bg container-fluid d-flex justify-content-center py-2">
+      <span class="font-oswald ">&copy; 2024 FaceHub</span>
+    </footer>
+  </body>
+</html>
