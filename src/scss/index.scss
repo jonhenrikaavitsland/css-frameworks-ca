@@ -77,6 +77,13 @@ button {
   max-width: 335px;
 }
 
+.accordion {
+  .accordion-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @include media-breakpoint-up(md) {
 
   button {
