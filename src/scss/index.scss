@@ -1,1 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
 
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "overrides";
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+body {
+  background-image: url("/src/assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: fill;
+}
+
+form {
+  input {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+}
+
+button {
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.btn-nav {
+  max-width: 120px;
+}
+
+.btn-browse {
+  height: 60px;
+  border: none;
+
+  &:hover {
+    background-color: #000;
+    transition: 500ms;
+  }
+
+  .icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(107%) contrast(101%);
+    height: 30px;
+  }
+}
+
+.icon-duo {
+  height: 14px;
+}
+
+.font-oswald {
+  font-family: $font-family-sans-serif-2 !important;
+}
+
+.element-bg {
+  background-color: #00000080;
+  backdrop-filter: blur(2px);
+}
+
+.logo {
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+.form-container {
+  max-width: 335px;
+}
+
+@include media-breakpoint-up(md) {
+
+  button {
+    font-size: 1.5rem !important;
+  }
+
+  .btn-nav {
+    max-width: 140px;
+  }
+
+  .logo {
+    h1 {
+      font-size: 5rem;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .form-container {
+    max-width: 708px;
+
+    .form-wrap {
+      max-width: 335px;
+    }
+
+    p {
+      font-size: 1.875rem;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {}
