@@ -84,6 +84,14 @@ button {
   }
 }
 
+.button-wrap {
+  max-width: min-content;
+
+  button {
+    white-space: nowrap;
+  }
+}
+
 @include media-breakpoint-up(md) {
 
   button {
