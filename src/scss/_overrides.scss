@@ -1,0 +1,30 @@
+$blue: #13ABBA;
+$cyan: #0E828D;
+
+$border-radius: 1.25rem;
+
+$font-family-sans-serif: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif-2: "Oswald", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$body-color: #FFF;
+$body-bg: #9115d0;
+
+$position-values: (
+  0: 0,
+  10: 10%,
+  50: 50%,
+  100: 100%
+);
+
+$paragraph-margin-bottom: 0;
+
+$accordion-bg: transparent;
+$accordion-border-color: $cyan;
+$accordion-button-bg: $cyan;
+$accordion-button-color: #fff;
+$accordion-button-active-bg: $cyan;
+$accordion-button-active-color: #FFF;
+$accordion-icon-transform: none;
+
+$accordion-button-icon: url("/src/assets/icons/blinds-regular.svg");
+$accordion-button-active-icon:  url("/src/assets/icons/blinds-raised-sharp-regular.svg");
