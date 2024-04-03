@@ -16,12 +16,21 @@
         <h2 class="fw-bold">The hangout</h2>
       </figure>
     </header>
-    <main class="px-3 flex-grow-1 d-flex flex-column justify-content-center align-items-center pb-5">
+    <main class="px-3 flex-grow-1 d-flex flex-column justify-content-center align-items-center pb-5 gap-4">
       <div class="container">
         <div class="row gap-md-3 p-3">
           <button class="btn-browse element-bg text-uppercase font-oswald my-3 text-white rounded fw-bold position-relative shadow col-md"><img src="/src/assets/icons/user-solid.svg" alt="profile" class="img-fluid icon position-absolute start-10">View Profile</button>
           <button class="btn-browse element-bg text-uppercase font-oswald my-3 text-white rounded fw-bold position-relative shadow  col-md"><img src="/src/assets/icons/person-to-door-solid.svg" alt="logout" class="img-fluid icon position-absolute start-10">Log out</button>
         </div>
+      </div>
+      <div class="bg-primary container rounded p-3">
+        <form>
+          <label for="exampleFormControlTextarea1" class="form-label fw-bold">How do you feel today?</label>
+          <div class="row mx-1">
+            <textarea class="form-control col" id="exampleFormControlTextarea1" rows="3" placeholder="post something..."></textarea>
+            <button class="btn btn-primary text-uppercase font-oswald w-auto">go</button>
+          </div>
+        </form>
       </div>
       <div class="container-fluid element-bg rounded d-flex flex-column gap-3 pb-5">
         <div class="row position-relative bg-primary rounded-top py-2">
@@ -39,7 +48,7 @@
           </form>
         </div>
         <div class="row justify-content-end">
-          <div class="btn-group col-3">
+          <div class="btn-group w-auto">
             <button type="button" class="btn btn-primary dropdown-toggle text-uppercase font-oswald" data-bs-toggle="dropdown" aria-expanded="false">
               Sort
             </button>
