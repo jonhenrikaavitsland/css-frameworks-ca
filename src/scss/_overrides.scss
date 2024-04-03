@@ -1,13 +1,15 @@
-$blue: #13ABBA;
-$cyan: #0E828D;
+$primary: #0E828D;
+$white: #FFF;
+$purple: #9115d0;
+$black: #000;
 
 $border-radius: 1.25rem;
 
 $font-family-sans-serif: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-sans-serif-2: "Oswald", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-$body-color: #FFF;
-$body-bg: #9115d0;
+$body-color: $white;
+$body-bg: $purple;
 
 $position-values: (
   0: 0,
@@ -19,11 +21,11 @@ $position-values: (
 $paragraph-margin-bottom: 0;
 
 $accordion-bg: transparent;
-$accordion-border-color: $cyan;
-$accordion-button-bg: $cyan;
-$accordion-button-color: #fff;
-$accordion-button-active-bg: $cyan;
-$accordion-button-active-color: #FFF;
+$accordion-border-color: $primary;
+$accordion-button-bg: $primary;
+$accordion-button-color: $white;
+$accordion-button-active-bg: $primary;
+$accordion-button-active-color: $white;
 $accordion-icon-transform: none;
 
 $accordion-button-icon: url("/src/assets/icons/blinds-regular.svg");
@@ -34,3 +36,6 @@ $thumbnail-bg: transparent;
 $thumbnail-border-width: 0;
 $thumbnail-border-color: none;
 $thumbnail-border-radius: $border-radius;
+
+$input-bg: $white;
+$input-color: $black;
