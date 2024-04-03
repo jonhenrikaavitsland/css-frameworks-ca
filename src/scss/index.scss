@@ -85,6 +85,17 @@ button {
   }
 }
 
+form {
+  .search {
+    border-radius: 20px 0 0 20px;
+    border: $primary 3px solid;
+  }
+
+  button {
+    border-radius: 0 20px 20px 0 !important;
+  }
+}
+
 @include media-breakpoint-up(md) {
 
   button {

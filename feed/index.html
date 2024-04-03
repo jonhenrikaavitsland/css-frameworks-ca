@@ -17,15 +17,19 @@
       </figure>
     </header>
     <main class="px-3 flex-grow-1 d-flex justify-content-center align-items-center">
-      <div class="container-fluid element-bg">
-        <div class="row">
-          <img src="../src/assets/icons/rss-solid.svg" class="img-fluid icon" alt="feed">
-          <h2>FEED</h2>
+      <div class="container-fluid element-bg rounded d-flex flex-column gap-3">
+        <div class="row position-relative bg-primary rounded-top py-2">
+          <div>
+            <img src="../src/assets/icons/rss-solid.svg" class="img-fluid icon position-absolute start-10" alt="feed">
+          </div>
+          <h2 class="col text-center font-oswald fw-bold">FEED</h2>
         </div>
         <div>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary" type="submit">Search</button>
+            <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
+            <div>
+              <button class="btn btn-primary" type="submit"><img src="../src/assets/icons/magnifying-glass-solid.svg" class="image-fluid icon" alt="search"></button>
+            </div>
           </form>
         </div>
       </div>
