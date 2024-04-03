@@ -35,11 +35,11 @@ button {
     background-color: $black;
     transition: 500ms;
   }
+}
 
-  .icon {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(107%) contrast(101%);
-    height: 30px;
-  }
+.icon {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(67deg) brightness(107%) contrast(101%);
+  height: 30px;
 }
 
 .icon-duo {
