@@ -9,7 +9,29 @@
     <link rel="stylesheet" href="../dist/css/index.css">
     <script type="module" src="../src/js/index.js"></script>
   </head>
-  <body>
-    
+  <body class="d-flex flex-column min-vh-100">
+    <header class="container-fluid pt-5">
+      <figure class="logo text-uppercase font-oswald text-center">
+        <h1 class="fw-bold">Facehub</h1>
+        <h2 class="fw-bold">The hangout</h2>
+      </figure>
+    </header>
+    <main class="px-3 flex-grow-1 d-flex justify-content-center align-items-center">
+      <div class="container-fluid element-bg">
+        <div class="row">
+          <img src="../src/assets/icons/rss-solid.svg" class="img-fluid icon" alt="feed">
+          <h2>FEED</h2>
+        </div>
+        <div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="element-bg container-fluid d-flex justify-content-center py-2">
+      <span class="font-oswald ">&copy; 2024 FaceHub</span>
+    </footer>
   </body>
 </html>
