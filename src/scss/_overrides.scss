@@ -1,0 +1,60 @@
+$primary: #0E828D;
+$white: #FFF;
+$purple: #9115d0;
+$black: #000;
+
+$border-radius: 1.25rem;
+
+$font-family-sans-serif: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif-2: "Oswald", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-size-base: 1rem !default;
+$h1-font-size: $font-size-base * 5;
+$h2-font-size: $font-size-base * 2.5;
+
+$body-color: $white;
+$body-bg: $purple;
+
+$position-values: (
+  0: 0,
+  10: 10%,
+  50: 50%,
+  100: 100%
+);
+
+$font-weight-bold: 700 !default;
+
+$btn-font-family: $font-family-sans-serif-2;
+$btn-font-size: 1.25rem;
+$btn-font-weight: $font-weight-bold;
+
+$paragraph-margin-bottom: 0;
+
+$accordion-bg: transparent;
+$accordion-border-color: $primary;
+$accordion-button-bg: $primary;
+$accordion-button-color: $white;
+$accordion-button-active-bg: $primary;
+$accordion-button-active-color: $white;
+$accordion-icon-transform: none;
+
+$accordion-button-icon: url("/src/assets/icons/blinds-regular.svg");
+$accordion-button-active-icon:  url("/src/assets/icons/blinds-raised-sharp-regular.svg");
+
+$thumbnail-padding: 0;
+$thumbnail-bg: transparent;
+$thumbnail-border-width: 0;
+$thumbnail-border-color: none;
+$thumbnail-border-radius: $border-radius;
+
+$input-bg: $white;
+$input-color: $black;
+$input-placeholder-color: $black;
+$input-focus-border-color: none;
+$input-focus-color: none;
+$input-focus-box-shadow: none;
+
+$headings-margin-bottom: 0;
+
+$dropdown-bg: $primary;
+$dropdown-link-hover-bg: transparent;
